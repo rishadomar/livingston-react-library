@@ -12,7 +12,7 @@ https://dev.to/sidv93/component-library-setup-with-react-typescript-and-rollup-o
 Steps:
 0) Devops prep
 Create a new repo (next door digital-design-system in Enterprise)
-Register with npm (public is free, private requires a paid subscription)
+Register with npm (public is free, private requires a paid subscription) https://www.npmjs.com/signup
 
 1) Create the component in src. For example: HelpBox.tsx
 
@@ -24,6 +24,10 @@ npm run lint
 npm run version
 npm run build
 npm run postversion
+
+4) npm login
+username: rishadauxcoza
+p: )EKy,+)-7iYQQB9
 
 4) Publish
 npm publish
