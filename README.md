@@ -1,4 +1,5 @@
 Livingston library
+--
 
 Ref:
 Best article:
@@ -26,20 +27,17 @@ npm run build
 npm run postversion
 
 4) npm login
-username: rishadauxcoza
-p: )EKy,+)-7iYQQB9
 
-4) Publish
+5) Publish
+npm version <patch or minor or major>
 npm publish
 
-5) Commit your code and push to git
+6) Commit your code and push to git
 
-6) Use the code in your app
-npm ...
+7) Use the code in your app
+npm install livingston-react-library
+import { HelpBox } from 'livingston-react-library/lib/esm';
 
+To update:
+npm update livingston-react-library
 
-Todo:
-- Add a simple test
-- check all the npm commands
-- npm publish
-- add and use in app
